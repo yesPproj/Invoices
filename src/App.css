@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding-top: 70px; /* Add padding to avoid content being hidden behind the fixed navbar */
+}
+
+div {
+  padding: 20px;
+}

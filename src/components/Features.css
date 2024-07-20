@@ -1,0 +1,132 @@
+/* Features.css */
+
+.features-container {
+    padding: 20px;
+    max-width: 1200px; /* Increase max-width for a wider layout */
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h2 {
+    color: #004FAC;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    animation: fadeIn 1s ease-out;
+  }
+  
+  .features-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .feature-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0; /* Light gray border for better separation */
+    transition: background-color 0.3s ease;
+  }
+  
+  .feature-item:hover {
+    background-color: #f5f5f5; /* Slight background change on hover */
+  }
+  
+  .feature-item i {
+    font-size: 1.5em;
+    color: #004FAC;
+    margin-right: 15px;
+    flex-shrink: 0; /* Prevent icon from shrinking */
+  }
+  
+  .feature-item span {
+    font-size: 1.15em;
+    color: #333;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .features-container {
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 2.2em;
+    }
+  
+    .feature-item {
+      padding: 12px;
+    }
+  
+    .feature-item i {
+      font-size: 1.4em;
+      margin-right: 10px;
+    }
+  
+    .feature-item span {
+      font-size: 1.1em;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .features-container {
+      padding: 10px;
+    }
+  
+    h2 {
+      font-size: 1.8em;
+    }
+  
+    .features-list {
+      padding-left: 10px;
+    }
+  
+    .feature-item {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px 0;
+    }
+  
+    .feature-item i {
+      font-size: 1.3em;
+      margin-bottom: 5px;
+    }
+  
+    .feature-item span {
+      font-size: 1em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .features-container {
+      padding: 8px;
+    }
+  
+    h2 {
+      font-size: 1.5em;
+    }
+  
+    .feature-item {
+      padding: 8px;
+    }
+  
+    .feature-item i {
+      font-size: 1.2em;
+    }
+  
+    .feature-item span {
+      font-size: 0.9em;
+    }
+  }
+  
