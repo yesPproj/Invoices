@@ -11,9 +11,7 @@ const Home = () => {
       <p>
         Yesp Invoice is designed to streamline your billing process with a user-friendly.</p>
        
-      <div className="image-container">
-        <img src={logo} alt="YesP Invoice" className="home-image" />
-      </div>
+   
       <Footer /> {/* Add Footer component */}
     </div>
   );
